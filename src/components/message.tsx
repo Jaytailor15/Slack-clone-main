@@ -48,7 +48,7 @@ export const Message = ({
 
 }: MessageProps) => {
     return(
-        <div>
+        <div className="flex flex-col gap-2 p-1.5 px-5 hover:bg-gray-100/60 grop relative">
             <Renderer value ={body}/>
         </div>
     )
